@@ -1,7 +1,8 @@
 # cisco_backup_jump_server
 python script using Netmiko to  take a cisco config snapshot , via an intermediate jump server
 
-https://github.com/markheinemann/cisco_backup_jump_server/blob/main/jump.JPG
+![alt text](https://github.com/markheinemann/cisco_backup_jump_server/blob/main/jump.JPG)
+
 
 tested in python3.7</br></br>
 this script is useful for network engineers when there is a  linux jump server ( jumpbox ) between the user
