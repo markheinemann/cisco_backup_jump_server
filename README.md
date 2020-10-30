@@ -18,7 +18,8 @@ Have ready the creds for:</br></br>
 Jump Server IP:</br>
 Jump Server Username: </br>
 End Cisco Device Username: </br>
-End Cisco Exec Password: </br></br>
+End Cisco Exec Password: </br></br></br>
+'getpass' will hide the password screen input</br></br>
 <b>Known Issues:</br></br></b>
 The RSA key in the jumpbox must match the RSA key in the end cisco device
 if this is not the case, then you may get a keygen error on trying to connect. The solution is to clear the key from the  <b>.ssh/known_hosts</b> file  
