@@ -30,7 +30,7 @@ ssh_device = {
     'secret': secret,
     'port': 22,
 }
-# oopen device list and split
+# open device list and split
 devices = open('devices.txt', 'r')
 devices = devices.read()
 devices = devices.strip().splitlines()
