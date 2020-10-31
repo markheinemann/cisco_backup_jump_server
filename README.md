@@ -1,15 +1,15 @@
 # cisco_backup_jump_server
 
-## python script using Netmiko to  take a cisco config snapshot , via an intermediate jump server
+## Python script using Netmiko to  take a cisco config snapshot , via an intermediate jump server
 
 ![alt text](https://github.com/markheinemann/cisco_backup_jump_server/blob/main/jump.JPG)
 
 
-tested in python3.7
+Tested in python3.7
 
-this script is useful for network engineers when there is a  linux jump server ( jumpbox ) between the user
+This script is useful for network engineers when there is a  linux jump server ( jumpbox ) between the user
 
-and the end cisco device, and eg corporate security controls prevent a direct ssh session
+and the end cisco device, and eg corporate security controls prevent a direct ssh session.
 
 ## Installation
 
@@ -25,7 +25,7 @@ Install Netmiko
 
 - `pip install netmiko`
 
-verify with `pip list`
+Verify with `pip list`
 
 ## Usage
 
@@ -37,13 +37,13 @@ cisco device in the list, writing each device config to a separate .txt file
 
 It presumes there maybe different usernames/ passwords for the jump server vs the  end device,
 
-so it will initially prompt the user for all credentials
+so it will initially prompt the user for all credentials.
 
-it also presumes the user/pass is constant for all the devices in the txt file
+It also presumes the user/pass is constant for all the devices in the txt file
 
 
 
-create a file `devices.txt` , a device ip address on every new line. see the example file in the repo to understand
+Create a file `devices.txt` , a device ip address on every new line. see the example file in the repo to understand
 the format required.Edit this list with your device's ip addresses 
 
 Have ready the creds for:
@@ -64,9 +64,9 @@ There is an example lab topology preloaded called "Multi Platform Network". This
  
 ## Known Issues
 
-The RSA key in the jumpbox must match the RSA key in the end cisco device
+The RSA key in the jumpbox must match the RSA key in the end cisco device.
 
-if this is not the case, then you may get a keygen error on trying to connect. The solution is to clear the key from the  'ssh/known_hosts' file  
+If this is not the case, then you may get a keygen error on trying to connect. The solution is to clear the key from the  'ssh/known_hosts' file  
 
 An example command would  be  `ssh-keygen -R 10.10.10.1` where 10.10.10.1 is the ip of the end cisco device
 
