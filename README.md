@@ -35,6 +35,12 @@ Have ready the creds for:
 
  getpass will hide the password screen input
  
+## Testing 
+
+[You can use the Cisco Modelling Laqbs Enterprise sandbox](https://devnetsandbox.cisco.com/RM/Diagram/Index/685f774a-a5d6-4df5-a324-3774217d0e6b?diagramType=Topology)
+
+ 
+ 
 ## Known Issues
 
 The RSA key in the jumpbox must match the RSA key in the end cisco device
