@@ -41,6 +41,6 @@ The RSA key in the jumpbox must match the RSA key in the end cisco device
 
 if this is not the case, then you may get a keygen error on trying to connect. The solution is to clear the key from the  'ssh/known_hosts' file  
 
-An example command would  be  `ssh-keygen -R 10.10.10.1</b> where 10.10.10.1 is the ip of the end cisco device`
+An example command would  be  `ssh-keygen -R 10.10.10.1` where 10.10.10.1 is the ip of the end cisco device
 
 
