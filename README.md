@@ -25,7 +25,7 @@ Install Netmiko
 
 - `pip install netmiko`
 
-verfiy with `pip list`
+verify with `pip list`
 
 ## Usage
 
@@ -59,7 +59,7 @@ Have ready the creds for:
 
 [You can use the Cisco Modelling Labs Enterprise sandbox](https://devnetsandbox.cisco.com/RM/Diagram/Index/685f774a-a5d6-4df5-a324-3774217d0e6b?diagramType=Topology)
 
-There is an example lab topology preloaded called "Multi Platform Network". This includes a devbox, some cisco devuces and a few linux hosts
+There is an example lab topology preloaded called "Multi Platform Network". This includes a devbox, some cisco devices and a few linux hosts
  
  
 ## Known Issues
